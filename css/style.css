@@ -61,10 +61,20 @@ a:hover {
 }
 
 /*Porsche page*/
-#ferdinand-porsche ul {
-  margin-left: 100px;
+#ferdinand-porsche img {
+  float: left;
+  margin-right: 20px;
 }
 
-#porsche-911-gt3rs ul {
-  margin-left: 100px;
+#ferdinand-porsche li {
+  list-style: none;
+}
+
+#porsche-911-gt3rs img {
+  float: left;
+  margin-right: 20px;
+}
+
+#porsche-911-gt3rs li {
+  list-style: none;
 }
