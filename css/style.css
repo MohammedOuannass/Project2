@@ -1,0 +1,41 @@
+/* Body color for all three websites */
+body {
+  background-color: #FCEADE;
+  color: #3B3B3B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header color */
+header {
+  background-color: #4C4C4C;
+  color: #FCEADE;
+  padding: 20px;
+}
+
+/* Navigation link color */
+nav a {
+  color: #FCEADE;
+  text-decoration: none;
+}
+
+/* Link hover color */
+a:hover {
+  color: #F2B885;
+}
+
+/* Button color */
+.button {
+  background-color: #F2B885;
+  color: #3B3B3B;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Button hover color */
+.button:hover {
+  background-color: #FAD3A3;
+}
