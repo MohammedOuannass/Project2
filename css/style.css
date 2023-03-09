@@ -65,3 +65,9 @@ a:hover {
   margin-left: 20px;
   position: relative;
 }
+
+#ferdinand-porsche img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
