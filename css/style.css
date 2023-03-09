@@ -1,4 +1,4 @@
-/* Body color for all three websites */
+/*All pages css*/
 body {
   background-color: #FCEADE;
   color: #3B3B3B;
@@ -7,25 +7,21 @@ body {
   line-height: 1.5;
 }
 
-/* Header color */
 header {
   background-color: #4C4C4C;
   color: #FCEADE;
   padding: 20px;
 }
 
-/* Navigation link color */
 nav a {
   color: #FCEADE;
   text-decoration: none;
 }
 
-/* Link hover color */
 a:hover {
   color: #F2B885;
 }
 
-/* Button color */
 .button {
   display: inline-block;
   text-align: center;
@@ -62,4 +58,10 @@ a:hover {
 #navbar-container a {
   display: block;
   padding: 10px;
+}
+
+/*Porsche page*/
+#ferdinand-porsche li {
+  margin-left: 20px;
+  position: relative;
 }
