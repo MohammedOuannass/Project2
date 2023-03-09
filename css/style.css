@@ -61,20 +61,212 @@ a:hover {
 }
 
 /*Porsche page*/
-#ferdinand-porsche img {
-  float: left;
-  margin-right: 20px;
+#all-about-porsche h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#ferdinand-porsche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #ferdinand-porsche h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .image-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .list-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  #porsche-911-gt3rs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #porsche-911-gt3rs h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .porsche-911-gt3rs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  .image-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  box-shadow: 0px 0px 10px #ccc;
 }
 
-#ferdinand-porsche li {
+.image-container img {
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.list-container {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.list-container ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#porsche-911-gt3rs img {
-  float: left;
-  margin-right: 20px;
+.list-container li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
 }
 
-#porsche-911-gt3rs li {
+/*Index Resume page*/
+.resume-box {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Class for sections */
+.ex-section {
+  margin-top: 50px;
+}
+
+/* ID for headers */
+#section-header {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Class for programming languages sections */
+.programming-language {
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+/* Styles for the Contact section */
+#contact-section {
+  background-color: #f5f5f5;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+#contact-section h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#contact-section p {
+  font-size: 18px;
+}
+
+/* Styles for the Education section */
+#education-section {
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+#education-section h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#education-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#education-section a {
+  color: #004b8d;
+}
+
+/* Styles for the Skills section */
+#skills-section {
+  background-color: #f5f5f5;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+#skills-section h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#skills-section ul {
+  font-size: 18px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+#skills-section li {
+  margin-bottom: 10px;
+}
+
+#skills-section li:before {
+  content: "\2022";
+  color: #004b8d;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+
+  
+  
