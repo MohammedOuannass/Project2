@@ -71,3 +71,9 @@ a:hover {
   height: auto;
   margin: 20px 0;
 }
+
+#ferdinand-porsche ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
