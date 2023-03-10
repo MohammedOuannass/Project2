@@ -172,12 +172,10 @@ a:hover {
   margin-bottom: 20px;
 }
 
-/* Class for sections */
 .ex-section {
   margin-top: 50px;
 }
 
-/* ID for headers */
 #section-header {
   font-size: 28px;
   font-weight: bold;
@@ -185,7 +183,6 @@ a:hover {
   margin-bottom: 30px;
 }
 
-/* Class for programming languages sections */
 .programming-language {
   border: 2px solid black;
   padding: 20px;
@@ -198,7 +195,6 @@ a:hover {
   margin-bottom: 20px;
   background-color: #f9f9f9;
 }
-/* Styles for the Contact section */
 #contact-section {
   background-color: #f5f5f5;
   padding: 50px;
@@ -220,7 +216,6 @@ a:hover {
   font-size: 18px;
 }
 
-/* Styles for the Education section */
 #education-section {
   background-color: #fff;
   padding: 50px;
@@ -242,7 +237,6 @@ a:hover {
   color: #004b8d;
 }
 
-/* Styles for the Skills section */
 #skills-section {
   background-color: #f5f5f5;
   padding: 50px;
@@ -273,4 +267,24 @@ a:hover {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+/*Waffles page*/
+.waffle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.waffle-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.waffle-section p {
+  max-width: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
