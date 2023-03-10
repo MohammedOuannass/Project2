@@ -65,6 +65,7 @@ a:hover {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+	text-align: center;
 }
 #ferdinand-porsche {
     display: flex;
@@ -170,6 +171,7 @@ a:hover {
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .ex-section {
@@ -181,12 +183,17 @@ a:hover {
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 .programming-language {
-  border: 2px solid black;
+  border: 2px solid #004b8d;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-box {
@@ -194,43 +201,62 @@ a:hover {
   padding: 20px;
   margin-bottom: 20px;
   background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 #contact-section {
   background-color: #f5f5f5;
   padding: 50px;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #contact-section h1 {
   font-size: 36px;
   text-align: center;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #contact-section h3 {
   font-size: 24px;
   margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #contact-section p {
   font-size: 18px;
+  text-align: center;
 }
 
 #education-section {
   background-color: #fff;
   padding: 50px;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #education-section h2 {
   font-size: 36px;
   text-align: center;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #education-section p {
   font-size: 18px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #education-section a {
@@ -241,19 +267,25 @@ a:hover {
   background-color: #f5f5f5;
   padding: 50px;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #skills-section h2 {
   font-size: 36px;
   text-align: center;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #skills-section ul {
   font-size: 18px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 #skills-section li {
@@ -269,12 +301,30 @@ a:hover {
   margin-left: -1em;
 }
 
+
+
 /*Waffles page*/
 .waffle-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #f5f5f5; 
+  border: 1px solid #d9d9d9; 
+  border-radius: 10px; 
+  padding: 20px;
+  overflow: hidden;
+}
+
+.waffle-section + .waffle-section {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .waffle-section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
 
 .waffle-section img {
@@ -287,4 +337,33 @@ a:hover {
   max-width: 500px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.diff-waffles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+#song {
+  background-image: url(media/song-background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
